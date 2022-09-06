@@ -14,4 +14,5 @@ model.fit(X,y)
 y_pred = model.predict(X)
 
 acc = accuracy_score(y,y_pred)
+
 print(acc)
